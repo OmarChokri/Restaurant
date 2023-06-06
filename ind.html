@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <script src="main.js"></script>
+    <link rel="icon" href="logo.jpg">
+    <script src="https://kit.fontawesome.com/5c9498261e.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="st.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!----------header----------->
+    <header>
+        <nav >
+            <a href="#home" class="logo">Restaurant</a>
+            <div class="menu">
+                <ul >
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#chef">Chef</a></li>
+                </ul>
+                <a href="reser.html" class="btn">Reservation</a>
+            </div>
+        </nav>    
+    </header>
+
+    <div class="home" id="home">
+        <div class="swiper mySwiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1 bgoverlay">
+                    <div class="content">
+                        <h3>Welcome</h3>
+                        <h1>We are ready to serve</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ullam cumque. Debitis nisi minus omnis fugit voluptas hic quod dolores! Soluta, neque culpa!</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide2">
+                    <div class="content">
+                        <h3><span class="logo1">Restaurant</span> Offers you</h3>
+                        <h1>The best testing expirience </h1>
+                        <a href="menu.html" class="btn">Vieu Menu</a>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="space"></div>
+
+
+    
+
+       <!-----categories------>
+          <div class="categories" id="cat">
+            <div class="small-container">
+                <center><h5>our categories</h5></center>
+                <div class="row">
+                    <div class="col-3">
+                        <a href="#it"><img src="it.jpg" alt="" width="250px" height="300px"></a>
+                        <p>italienne food</p>
+                    </div>
+                    <div class="col-3">
+                        <a href="#tu"><img src="Plat-Tunisien.png" alt="" width="250px" height="300px"></a>
+                        <p>tunisien food</p>
+                    </div>
+                    <div class="col-3">
+                        <a href="#jp"><img src="jp.jpg" alt=""width="250px" height="300px"></a>
+                        <p>japanese food</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+               <!-----------------bllog------------->
+    <div class="blog-section" id="blog">
+        <div class="section-content blog">
+            <div class="title2">
+                <h2><samp class="fl">B</samp>log & <span class="fl">N</span>ews</h2>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="image-section">
+                        <img src="drink.jfif" alt="" height="250px" width="150px">
+                    </div>
+                    <div class="article">
+                        <h4>Best drink in 2023</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nesciunt, eum consequuntur 
+                            molestias quod architecto!</p>
+                    </div>
+                    <div class="blog-view">
+                        <button class="button7"> Read More
+                        </button>
+                    </div>
+                    <div class="posted-date">
+                        <p>29/04/2023</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-section">
+                        <img src="ramadan.jpg" alt="" height="250px" width="150px">
+                    </div>
+                    <div class="article">
+                        <h4>Best ramadan foods in 2023</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nesciunt, eum consequuntur 
+                            molestias quod architecto!</p>
+                    </div>
+                    <div class="blog-view">
+                        <button class="button7"> Read More
+                        </button>                    </div>
+                    <div class="posted-date">
+                        <p>28/04/2023</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-section">
+                        <img src="images.jpg" alt="" height="250px" width="150px">
+                    </div>
+                    <div class="article">
+                        <h4>Best healthy foods in 2023</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nesciunt, eum consequuntur 
+                            molestias quod architecto!</p>
+                    </div>
+                    <div class="blog-view">
+                        <button class="button7"> Read More
+                        </button>                    </div>
+                    <div class="posted-date">
+                        <p>27/04/2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+           <!------chef----------->
+    <div class="small-c" id="chef">
+        <h2 class="title ">the chefs</h2>      
+         <div class="row5">
+            <div class="col-5">
+                <div class="profil">
+                    <img src="ThomasKeller.jpg" alt="" height="350px">
+                    <h2 class="t1">Thomas Keller</h2>
+                    <p>Master chef</p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="profil">
+                    <img src="elena-arzak.jpg" alt="" height="350px">
+                    <h2 class="t1">Elena Arzak</h2>
+                    <p>Master chef</p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="profil">
+                    <img src="hannibal.jpg" alt="" height="350px">
+                    <h2 class="t1">Hannibal</h2>
+                    <p>Master chef</p>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <!-----------testi-->
+
+    <section class="section">
+        <div class="m_heading"><b>Our</b> Testimonials</div>
+        <div class="m_wrapper">
+            <div class="m_container">
+                 <div class="m_profile">
+                     <div class="m_imgBox">
+                        <img src="face1.jpg" alt="">
+                    </div>
+                    <h2>Amal</h2>
+                </div>
+                <p><span class="m_fa m_fa-quote-left m_left"></span>   
+                
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis exercitationem quas praesentium, vero earum iusto ad commodi deleniti ex impedit enim tempora sit quae facere rem dicta officia, ea placeat.
+                
+                    <span class="m_fa m_fa-quote-right m_right"></span> </p>
+                    <div class="m_social">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+            </div>
+            <div class="m_container">
+                <div class="m_profile">
+                    <div class="m_imgBox">
+                       <img src="face2.jpg" alt="">
+                   </div>
+                   <h2>Monji</h2>
+               </div>
+               <p><span class="m_fa m_fa-quote-left m_left"></span>   
+               
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis exercitationem quas praesentium, vero earum iusto ad commodi deleniti ex impedit enim tempora sit quae facere rem dicta officia, ea placeat.
+               
+                   <span class="m_fa m_fa-quote-right m_right"></span> </p>
+                   <div class="m_social">
+                       <i class="fab fa-twitter"></i>
+                       <i class="fab fa-youtube"></i>
+                       <i class="fab fa-instagram"></i>
+                   </div>
+           </div>
+           <div class="m_container">
+            <div class="m_profile">
+                <div class="m_imgBox">
+                   <img src="face3.jpg" alt="">
+               </div>
+               <h2>Lara</h2>
+           </div>
+           <p><span class="m_fa m_fa-quote-left m_left"></span>   
+           
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis exercitationem quas praesentium, vero earum iusto ad commodi deleniti ex impedit enim tempora sit quae facere rem dicta officia, ea placeat.
+           
+               <span class="m_fa m_fa-quote-right m_right"></span> </p>
+               <div class="m_social">
+                   <i class="fab fa-twitter"></i>
+                   <i class="fab fa-youtube"></i>
+                   <i class="fab fa-instagram"></i>
+               </div>
+       </div>
+        </div>                           
+    </section>
+
+    <!----------------footer-->
+    <footer>
+        <div class="row7">
+            <div class="col7">
+                <a href="#home" class="logo">Restaurant</a>
+                <button class="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 256 262" class="svg">
+                    <path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" class="blue"></path>
+                    <path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" class="green"></path>
+                    <path fill="#FBBC05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" class="yellow"></path>
+                    <path fill="#EB4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" class="red"></path>
+                  </svg>
+                  <span class="text">Continue with Google</span>
+                  </button>
+            
+            <h3 class="t5">Rate us <div class="underline"><span></span></div> </h3>
+            <div class="rating">
+                <input type="radio" id="star5" name="rate" value="5">
+                <label for="star5" title="text"></label>
+                <input type="radio" id="star4" name="rate" value="4">
+                <label for="star4" title="text"></label>
+                <input checked="" type="radio" id="star3" name="rate" value="3">
+                <label for="star3" title="text"></label>
+                <input type="radio" id="star2" name="rate" value="2">
+                <label for="star2" title="text"></label>
+                <input type="radio" id="star1" name="rate" value="1">
+                <label for="star1" title="text"></label>
+              </div>
+            </div>
+         <div class="col7">
+            <h3>Contact <div class="underline"><span></span></div> </h3>
+            <p class="email-id"><p><i class="fa fa-envelope-o" aria-hidden="true"></i>   Restaurant@gmail.com</p>
+            <p><i class="fa fa-phone-square" aria-hidden="true"></i>    12 345 678</p></p>
+         </div> 
+         <div class="col7">
+            <h3>Links <div class="underline"><span></span></div> </h3> </h3>
+            <ul>
+                <li> <a href="">Home</a></li>
+                <li><a href="#cat">categories</a></li>
+                <li><a href="menu.html">menu</a></li>
+                <li><a href="#chef">chef</a></li>
+                <li><a href="reser.html">Reservation</a></li>
+            </ul>
+         </div>
+         <div class="col7">
+            <h3>Newsletter <div class="underline"><span></span></div> </h3></h3>
+            <form>
+                <i class="far fa-envelope"></i>
+                <input type="email" placeholder="Enter your email id" required>
+                <button type="submit"><i class="fas fa-arrow-right"></i></i></button>
+            </form>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-pinterest"></i>
+
+
+          </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright"> © 2020 Copyright: Restaurant</p>
+    </footer>
+
+    <!-------to top-->
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+       
+
+
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+  </script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('nav');
+            header.classList.toggle("sticky", window.scrollY>0);
+        })
+    </script>
+    <script src="main.js"></script>
+</body>

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@100;400;500;700&display=swap');
+:root {
+     --d-yellow : #c59d5f;
+     --light : #f9f9f9;
+     --dark : #222;
+     --PColor : #a5a5a5;
+     --font-Kaushan : 'Kaushan Script', cursive;
+     --font-Great : 'Great Vibes', cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif; 
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background-color: #222;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),var(--dark)),url(fo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo {
+    color: white;
+    font-size: 50px;
+    font-family: var(--font-Great);
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 30px;
+    height: 100px;
+    position: relative;
+    line-height: 100px;
+}
+header nav ul li::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--d-yellow);
+    width: 0%;
+    height: 2px;
+    transition: 0.3s;
+}
+
+header nav ul li:hover::after, header nav ul li.active::after{
+    width: 100%;
+}
+
+header nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn1  {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background-color: var(--d-yellow);
+    color: white;
+}
+
+.btn1:hover{
+    color: var(--d-yellow);
+    background-color: white;
+    transition: 0.3s;
+}
+
+/**/
+
+.main{
+    width: 1170px;
+    margin: 39px auto;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-title p{
+    color: var(--PColor);
+}
+
+.menu-content p{
+    color: var(--PColor);
+}
+
+.section-title h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: var(--d-yellow);
+    font-family: var(--font-Kaushan);
+}
+
+.section-title h2::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: var(--light);
+    bottom: 0;
+    left :50%;
+    transform: translateX(-50%);
+}
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-column{
+    width: 31%;
+}
+
+.menu-column h4{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 10px;
+    color: var(--light);
+    font-family: var(--font-Kaushan);
+}
+
+.menu-column h4:hover{
+    color: #c59d5f;
+}
+
+.menu-column h4::before{
+    content: '';
+    position: absolute;
+    width: 40px;   
+    height: 3px;
+    background-color: #c59d5f;
+    bottom: 0;
+}
+
+.single-menu{
+    display: flex;
+    align-items: center; 
+    margin-top: 40px;
+}
+
+.single-menu img {
+    border-radius: 50%;
+    max-width: 110px;
+    border: 1px dashed #ddd;
+    padding: 3px;
+    margin-right: 15px;
+    transition: .3s;
+}
+
+.single-menu:hover img{
+    transform: rotate(360deg);
+}
+
+.single-menu .menu-content h5{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed var(--PColor);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: var(--light);
+    font-family: var(--font-Great);
+}
+
+.single-menu .menu-content h5 span{
+    color: var(--d-yellow);
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+    font-family: var(--font-Kaushan);
+}
+
+/**/
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(var(--dark), var(--d-yellow));
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <!----------header----------->
+    <header>
+        <nav>
+            <a href="ind.html" class="logo">Restaurant</a>
+            <div class="menu">
+                <ul>
+                    <li><a href="ind.html #home">Home</a></li>
+                    <li><a href="ind.html #blog">Blog</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="ind.html #chef">Chef</a></li>
+                </ul>
+                <a href="reser.html" class="btn1">Reservation</a>
+            </div>
+        </nav>    
+
+    <div class="container">
+        <div class="container-time">
+                <h2 class="heading">time open</h2>
+                <h3 class="heading-day">monday-friday</h3>
+                <p>7am - 11am (breakfast)</p>
+                <p>11am - 10pm (lunch/dinner)</p>
+
+                <h3 class="heading-day">saturday and sunday</h3>
+                <p>9am - 1am (breakfast)</p>
+                <p>1am - 10pm (lunch/dinner)</p>
+
+                <hr>
+
+                <h4 class="heading-phone">call us: (123) 27-814-485</h4>
+
+        </div>
+        <div class="container-from">
+                <form action="test.php" method="post">
+                    <h2 class="heading heading-yellow">Reservation Online</h2>
+
+                    <div class="from-field">
+                        <p>Your Name</p>
+                        <input type="text" placeholder="Your Name" name="name" id="name">
+                    </div>
+                    <div class="from-field">
+                        <p>Your email</p>
+                        <input type="email" placeholder="Your email" name="email" id="date">
+                    </div>
+                    <div class="from-field">
+                        <p>date </p>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="from-field">
+                        <p>time</p>
+                        <input type="time"  name="time" id="date">
+                    </div>
+                    <div class="from-field">
+                        <p>how many people?</p>
+                      <select name="select" id="#">
+                        <option value="1">1 person</option>
+                        <option value="2">2 person</option>
+                        <option value="3">3 person</option>
+                        <option value="4">4 person</option>
+                        <option value="5">5 person</option>
+                        <option value="5+">5+ person</option>
+                      </select>
+                    </div>
+
+                    <button class="btn">submit</button>
+
+                </form>
+        </div>
+    </div>
+    </header>
+
+ 
+    
+</body>
+</html>
